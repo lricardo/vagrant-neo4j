@@ -1,5 +1,4 @@
-#Update the main repositories
-
+#DNS fix for this machine
 sudo rm /etc/resolv.conf
 sudo ln -s ../run/resolvconf/resolv.conf /etc/resolv.conf
 sudo resolvconf -u
